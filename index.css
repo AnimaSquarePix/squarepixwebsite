@@ -17,6 +17,8 @@ body {
 	margin-right: auto;
 	height: 1000px;
 	background-color: #FFFFFF;
+	text-transform: uppercase;
+
 }
 .logo {
 	position: relative;
@@ -42,7 +44,6 @@ body {
 	color: #000;
 	margin-top: 4px;
 	font-weight: lighter;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 1000;
 }
