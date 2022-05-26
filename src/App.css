@@ -36,7 +36,7 @@
 }
 
 .square-logo button{
-  margin: 18px;
+  padding-right: 100px;
   text-transform: uppercase;
   background-color: #f99321;
   border: 0px;
@@ -47,11 +47,12 @@
 }
 
 .square-logo:hover button{
+  background-color: rgba(0, 0, 0, 0);
   margin: 18px;
+  margin-right: 300px;
   width: 170px;
   height: 50px;
   text-transform: uppercase;
-  background-color: #f99321;
   border: 0px;
   transition: 0.5s;
   font-size: 30px;
@@ -65,14 +66,15 @@
   color: #f99321;
 }
 .square-logo ul li{
+  background-color: rgba(0, 0, 0, 0);
   z-index: 0;
   position: relative;
   list-style: none;
   list-style-position: outside;
   line-height: 10px;
 }
-.square-logo:hover ul li{
-  line-height: 50px;
+.square-logo:hover li{
+  line-height: 0px;
 }
 .square-logo h1{
   z-index: 2;
@@ -103,22 +105,10 @@
   transition: 1s;
 }
 
-.square-logo:hover a {
-  z-index: 2;
-  color: #000000;
-  transition: 1s;
-  opacity: 1;
-  font-size: 30px;
-}
-
 @media (prefers-reduced-motion:no-preference){
   .square-logo{
     -webkit-animation:App-logo-spin 0.3s 1;
     animation:App-logo-spin 0.3s 1;
-  }
-  .square-logo:hover{
-    -webkit-animation:App-logo-hover-spin 0.5s 1;
-    animation:App-logo-hover-spin 0.5s 1;
   }
 }
 @-webkit-keyframes App-logo-hover-spin{
@@ -166,19 +156,44 @@
     transform:rotate(0deg)
   }
 }
-@keyframes square-title-fadein {
-  from {
-    opacity: 0%;
-    transform: color(#f99321);
-  }
-  to {
-    opacity: 100%;
-    transform: color(#000);
-  }
-}
-
 .square-frame {
+  align-items: center;
+  text-align: center;
+  float: left;
   background-color: #000;
   width: 100%;
-  height: 400px;
+  height: 100vmin;
+  color: #f99321;
+}
+.square-frame h1 {
+  position: absolute;
+  margin-top: 5%;
+  background-color: #f99321;
+  width: fit-content;
+  padding: 10px;
+  color: #000;
+  margin-left: 32%;
+  margin-right: 32%;
+  float: right;
+}
+.square-frame .about-description {
+  background-color: #f99321;
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 40%;
+  padding: 10px;
+  color: #000000;
+  font-size: large;
+  text-align: justify;
+}
+.square-frame .about-video {
+  background-color: #f99321;
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 40%;
+  padding: 10px;
+  color: #000000;
+}
+.square-frame button{
+
 }
