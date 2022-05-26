@@ -1,6 +1,9 @@
 import './App.css';
 
 function App() {
+
+  let menuoption = 0;
+
   return (
     <div className="App">
       <header className="App-header">
@@ -8,21 +11,19 @@ function App() {
             <div class="square-logo">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <button>Jogos</button>
                     </li>
                     <li>
-                        <a href="#">Jogos</a>
+                        <button>Sobre</button>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#">Contatos</a>
+                        <button>Contato</button>
                     </li>  
                 </ul>
                 <h1>Square</h1>
             </div>
         </div>
+        {(menuoption == 1) && <div></div>}
       </header>
     </div>
   );
