@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/squarepixwebsite/static/css/main.1e66a36a.css",
-    "main.js": "/squarepixwebsite/static/js/main.d036769e.js",
+    "main.css": "/squarepixwebsite/static/css/main.88cc61bf.css",
+    "main.js": "/squarepixwebsite/static/js/main.85ea4146.js",
     "static/js/787.7b6995a6.chunk.js": "/squarepixwebsite/static/js/787.7b6995a6.chunk.js",
     "index.html": "/squarepixwebsite/index.html",
-    "main.1e66a36a.css.map": "/squarepixwebsite/static/css/main.1e66a36a.css.map",
-    "main.d036769e.js.map": "/squarepixwebsite/static/js/main.d036769e.js.map",
+    "main.88cc61bf.css.map": "/squarepixwebsite/static/css/main.88cc61bf.css.map",
+    "main.85ea4146.js.map": "/squarepixwebsite/static/js/main.85ea4146.js.map",
     "787.7b6995a6.chunk.js.map": "/squarepixwebsite/static/js/787.7b6995a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e66a36a.css",
-    "static/js/main.d036769e.js"
+    "static/css/main.88cc61bf.css",
+    "static/js/main.85ea4146.js"
   ]
 }
