@@ -10,14 +10,13 @@ body{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-
 }
 
 .square-logo{
     border: #000000;
 	width: 20px;
 	height: 20px;
-	border: 50px solid #000000;
+	border: 25px solid #000000;
 	margin-left: auto;
 	margin-right: auto;
     margin-top: 100px;
@@ -37,14 +36,14 @@ body{
 
     font-weight: bold;
 }
-.square-logo ul li{
+.square-logo li{
     position: relative;
     list-style: none;
     list-style-position: outside;
     line-height: 10px;
 }
-.square-logo:hover ul li{
-    line-height: 50px;
+.square-logo:hover li{
+    line-height: 80px;
 }
 .square-logo h1{
     height: 0px;
@@ -53,12 +52,13 @@ body{
     opacity: 0;
     position: absolute;
     transition: 1s;
+    text-align: center;
 }
 .square-logo:hover h1{
     height: 450px;
     font-size: 50px;
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s ease-in-out;
 }
 .square-logo:hover{
     border: #000000;
@@ -68,7 +68,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
     margin-top: 100px;
-    transition: 1s;
+    transition: 0.5s ease-in-out;
 }
 
 .square-logo:hover a {
@@ -76,6 +76,36 @@ body{
     transition: 1s;
     opacity: 1;
     font-size: 30px;
+    border-radius: 20px;
+    border: #f99321 solid 0px;
+    
+}
+
+.square-logo a:hover{
+    border: #000000 solid 15px;
+    color: #f99321;
+    background-color: #000000;
+
+}
+
+@media (max-width: 800px){
+    .square-logo:hover {
+        width: 200px;
+        height: 200px;
+    }
+
+    .square-logo:hover h1{
+        font-size: 32px;
+        height: 310px;
+    }
+
+    .square-logo:hover a{
+        font-size: 26px;
+    }
+
+    .square-logo:hover li{
+        line-height: 50px;
+    }
 
 }
 
