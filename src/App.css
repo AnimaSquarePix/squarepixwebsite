@@ -167,11 +167,28 @@
   width: 100%;
   height: 100vmin;
   color: #f99321;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#frame-EPTC {
+  background-image: url("img/eptcpicture.png");
+}
+#frame-cardgame {
+  background-image: url("img/cardgamepicture.jpeg");
+}
+#frame-pineapple {
+  background-image: url("img/pineapplepicture.png");
+}
+#frame-ritmo {
+  background-image: url("img/eptcpicture.png");
 }
 .square-frame h1 {
   position: relative ;
   margin-top: 5%;
-  background-color: #f99321;
+  background-color: #020201;
   width: fit-content;
   padding: 10px;
   color: #000;
@@ -181,6 +198,7 @@
   border-radius: 10px;
 }
 .square-frame .about-description {
+  position: inherit;
   border-radius: 15px;
   background-color: #f99321;
   margin-top: 15%;
@@ -190,16 +208,7 @@
   color: #000000;
   font-size: large;
   text-align: justify;
-}
-.square-frame .about-video {
-  position: relative;
-  background-color: #f99321;
-  margin-top: 5%;
-  margin-left: 10%;
-  width: 40%;
-  height: 25%;
-  padding: 10px;
-  color: #000000;
+  z-index: 2;
 }
 .square-frame button{
   margin-top: 30px;
@@ -260,4 +269,14 @@
 .square-frame .special-button {
   position: absolute;
   margin-top: 14%;
+}
+.game-title {
+  margin-top: -5%;
+  margin-bottom: auto;
+  width: 100%;
+  background-color: #f99321;
+}
+.game-title h1{
+  background-color: #f99321;
+  color: #000;
 }
