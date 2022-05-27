@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/squarepixwebsite/static/css/main.5b01183b.css",
-    "main.js": "/squarepixwebsite/static/js/main.6ed282f1.js",
+    "main.css": "/squarepixwebsite/static/css/main.4dc3f8e4.css",
+    "main.js": "/squarepixwebsite/static/js/main.831c2a93.js",
     "static/js/787.7b6995a6.chunk.js": "/squarepixwebsite/static/js/787.7b6995a6.chunk.js",
+    "static/media/eptcpicture.png": "/squarepixwebsite/static/media/eptcpicture.5ebd99d8a88600b6e1c2.png",
+    "static/media/pineapplepicture.png": "/squarepixwebsite/static/media/pineapplepicture.e8ba245ae2673e5ff3cb.png",
+    "static/media/cardgamepicture.jpeg": "/squarepixwebsite/static/media/cardgamepicture.e486f790e96b868d4367.jpeg",
     "index.html": "/squarepixwebsite/index.html",
-    "main.5b01183b.css.map": "/squarepixwebsite/static/css/main.5b01183b.css.map",
-    "main.6ed282f1.js.map": "/squarepixwebsite/static/js/main.6ed282f1.js.map",
+    "main.4dc3f8e4.css.map": "/squarepixwebsite/static/css/main.4dc3f8e4.css.map",
+    "main.831c2a93.js.map": "/squarepixwebsite/static/js/main.831c2a93.js.map",
     "787.7b6995a6.chunk.js.map": "/squarepixwebsite/static/js/787.7b6995a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b01183b.css",
-    "static/js/main.6ed282f1.js"
+    "static/css/main.4dc3f8e4.css",
+    "static/js/main.831c2a93.js"
   ]
 }
