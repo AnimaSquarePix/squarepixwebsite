@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 .App-header {
   background-color: #f99321;
   min-height: 100vh;
@@ -166,17 +169,18 @@
   color: #f99321;
 }
 .square-frame h1 {
-  position: absolute;
+  position: relative ;
   margin-top: 5%;
   background-color: #f99321;
   width: fit-content;
   padding: 10px;
   color: #000;
-  margin-left: 32%;
-  margin-right: 32%;
-  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
 }
 .square-frame .about-description {
+  border-radius: 15px;
   background-color: #f99321;
   margin-top: 15%;
   margin-left: 10%;
@@ -187,13 +191,67 @@
   text-align: justify;
 }
 .square-frame .about-video {
+  position: relative;
   background-color: #f99321;
   margin-top: 5%;
   margin-left: 10%;
   width: 40%;
+  height: 25%;
   padding: 10px;
   color: #000000;
 }
 .square-frame button{
-
+  margin-top: 30px;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #f99321;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(75, 75, 75);
+}
+.square-frame button:active {
+  box-shadow: 0 5px rgb(75, 75, 75);
+  transform: translateY(4px);
+}
+.square-frame .prev-button {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: -30%;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #f99321;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(83, 83, 83);
+}
+.square-frame .prev-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.square-frame .next-button {
+  position: absolute;
+  margin-top: 14%;
+  margin-left: 15%;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #f99321;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(83, 83, 83);
+}
+.square-frame .next-button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

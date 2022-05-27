@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
-import * as Scroll from 'react-scroll';
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy,scrollToTop , scroller } from 'react-scroll'
 
 class App extends Component {
   constructor(props) {
     super(props);
 
-
     this.state = {
       showOption: 0,
+      showGame:1
     };
   }
 
   scrollToTop = () => {
     scroll.scrollToTop();
+    setTimeout(() => {  this.setState({showOption:0}); }, 1000);
   }
   scrolltoBottom = () => {
     scroll.scrollToBottom();
@@ -49,6 +49,13 @@ class App extends Component {
       }
   }
 
+  nextGame = () => {
+    this.setState({showGame:(this.state.showGame+1)})
+  }
+  prevGame = () => {
+    this.setState({showGame:(this.state.showGame-1)})
+  }
+
   render () {
     return (
       <div className="App">
@@ -72,26 +79,24 @@ class App extends Component {
         </header>
         {(this.state.showOption == 1) && (
         <div className='square-frame'>
-          <h1>SOBRE A SQUARE PIX</h1>
-          <div className='about-description'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis. Etiam hendrerit ante vitae orci bibendum laoreet. Suspendisse leo sem, interdum vitae lorem ac, hendrerit bibendum velit. Fusce malesuada mi at enim rhoncus tincidunt. Sed fermentum libero vitae justo feugiat, a iaculis justo interdum.</p></div>
-          <div className='about-video'></div>
-          <button type='button' onClick={this.scrollToTop}>VOLTAR</button>
+        <div className='about-description'><p>{this.state.showGame} Contagem de jogos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
+          {(this.state.showGame > 0) && (<button className='prev-button' type='button' onClick={this.prevGame}><b>ANTERIOR</b></button>)}
+          {(this.state.showGame < 4) && (<button className='next-button' type='button' onClick={this.nextGame}><b>PRÓXIMO</b></button>)}
+          <button className='special-button' onClick={this.scrollToTop}>^^</button>
         </div>
         )}
         {(this.state.showOption == 2) && (
         <div className='square-frame'>
-          <h1>SOBRE A SQUARE PIX</h1>
-          <div className='about-description'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis. Etiam hendrerit ante vitae orci bibendum laoreet. Suspendisse leo sem, interdum vitae lorem ac, hendrerit bibendum velit. Fusce malesuada mi at enim rhoncus tincidunt. Sed fermentum libero vitae justo feugiat, a iaculis justo interdum.</p></div>
-          <div className='about-video'></div>
-          <button type='button' onClick={this.scrollToTop}>VOLTAR</button>
+          <h1 className='port'>SOBRE A SQUARE PIX</h1>
+          <div className='about-description'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
+          <button type='button' onClick={this.scrollToTop}><b>VOLTAR</b></button>
         </div>
         )}
         {(this.state.showOption == 3) && (
         <div className='square-frame'>
-          <h1>SOBRE A SQUARE PIX</h1>
-          <div className='about-description'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis. Etiam hendrerit ante vitae orci bibendum laoreet. Suspendisse leo sem, interdum vitae lorem ac, hendrerit bibendum velit. Fusce malesuada mi at enim rhoncus tincidunt. Sed fermentum libero vitae justo feugiat, a iaculis justo interdum.</p></div>
-          <div className='about-video'></div>
-          <button type='button' onClick={this.scrollToTop}>VOLTAR</button>
+          <h1>Contato</h1>
+          <div className='about-description'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
+          <button type='button' onClick={this.scrollToTop}><b>VOLTAR</b></button>
         </div>
         )}
       </div>
