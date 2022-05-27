@@ -94,7 +94,7 @@ class App extends Component {
         )}
         {(this.state.showOption == 3) && (
         <div className='square-frame'>
-          <h1>Contato</h1>
+          <h1>CONTATO</h1>
           <div className='about-description'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
           <button type='button' onClick={this.scrollToTop}><b>VOLTAR</b></button>
         </div>

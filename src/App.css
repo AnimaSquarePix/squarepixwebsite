@@ -178,6 +178,7 @@
   margin-left: auto;
   margin-right: auto;
   float: center;
+  border-radius: 10px;
 }
 .square-frame .about-description {
   border-radius: 15px;
@@ -254,4 +255,9 @@
 .square-frame .next-button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+.square-frame .special-button {
+  position: absolute;
+  margin-top: 14%;
 }
