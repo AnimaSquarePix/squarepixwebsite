@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/squarepixwebsite/static/css/main.cbbc2900.css",
-    "main.js": "/squarepixwebsite/static/js/main.7aeabd62.js",
+    "main.css": "/squarepixwebsite/static/css/main.dcf1ce51.css",
+    "main.js": "/squarepixwebsite/static/js/main.90de8b26.js",
     "static/js/787.7b6995a6.chunk.js": "/squarepixwebsite/static/js/787.7b6995a6.chunk.js",
     "static/media/eptcpicture.png": "/squarepixwebsite/static/media/eptcpicture.5ebd99d8a88600b6e1c2.png",
     "static/media/pineapplepicture.png": "/squarepixwebsite/static/media/pineapplepicture.e8ba245ae2673e5ff3cb.png",
     "static/media/cardgamepicture.jpeg": "/squarepixwebsite/static/media/cardgamepicture.e486f790e96b868d4367.jpeg",
     "static/media/RetroGaming.ttf": "/squarepixwebsite/static/media/RetroGaming.c1a52a602585b2d6baf8.ttf",
     "index.html": "/squarepixwebsite/index.html",
-    "main.cbbc2900.css.map": "/squarepixwebsite/static/css/main.cbbc2900.css.map",
-    "main.7aeabd62.js.map": "/squarepixwebsite/static/js/main.7aeabd62.js.map",
+    "main.dcf1ce51.css.map": "/squarepixwebsite/static/css/main.dcf1ce51.css.map",
+    "main.90de8b26.js.map": "/squarepixwebsite/static/js/main.90de8b26.js.map",
     "787.7b6995a6.chunk.js.map": "/squarepixwebsite/static/js/787.7b6995a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbbc2900.css",
-    "static/js/main.7aeabd62.js"
+    "static/css/main.dcf1ce51.css",
+    "static/js/main.90de8b26.js"
   ]
 }
