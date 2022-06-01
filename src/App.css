@@ -197,9 +197,10 @@ button {
   background-image: url("img/eptcpicture.png");
 }
 .square-frame h1 {
+  font-family: Retrogaming;
   position: relative ;
   margin-top: 5%;
-  background-color: #020201;
+  background-color: #f99321;
   width: fit-content;
   padding: 10px;
   color: #000;
@@ -212,7 +213,7 @@ button {
   position: inherit;
   border-radius: 15px;
   background-color: #f99321;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 10%;
   width: 40%;
   padding: 10px;
@@ -239,7 +240,11 @@ button {
   box-shadow: 0 5px rgb(75, 75, 75);
   transform: translateY(4px);
 }
-
+.square-frame .about-description button {
+  margin-left: 38%;
+  margin-right: auto;
+  background-color: #48ff67;
+}
 .square-frame .prev-button {
   position: absolute;
   margin-top: 14%;
