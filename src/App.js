@@ -30,6 +30,7 @@ class App extends Component {
         this.setState({showOption:0})
       }
   }
+
   toggleAbout = () => {
     scroll.scrollToBottom();
       if (this.state.showOption !== 2) {
@@ -76,19 +77,16 @@ class App extends Component {
               <div className='game-title'><h1>PROJETO EPTC</h1></div>
               <div className='about-description'><p><b>O Projeto EPTC</b> é Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
               <div className='parallax-img'></div>
-              <button className='special-button' onClick={this.scrollToTop}>^^</button>
             </div>
               <div className='square-frame' id='frame-cardgame'>
               <div className='game-title'><h1>PROJETO CARDGAME</h1></div>
               <div className='about-description'><p><b>O Projeto CARDGAME</b> é Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
               <div className='parallax-img'></div>
-              <button className='special-button' onClick={this.scrollToTop}>^^</button>
             </div>
               <div className='square-frame' id='frame-pineapple'>
               <div className='game-title'><h1>PROJETO PINEAPPLE</h1></div>
               <div className='about-description'><p><b>O Projeto PINEAPPLE</b> é Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet elit aliquam, lacinia dui eu, volutpat leo. Vestibulum sed viverra odio. Etiam ullamcorper leo porttitor, bibendum odio eu, laoreet lorem. Aliquam hendrerit id orci vel convallis.</p></div>
               <div className='parallax-img'></div>
-              <button className='special-button' onClick={this.scrollToTop}>^^</button>
             </div>
             <div className='square-frame' id='frame-cardgame'>
               <div className='game-title'><h1>PROJETO RITMO</h1></div>
