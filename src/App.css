@@ -209,12 +209,34 @@ button {
   float: center;
   border-radius: 10px;
 }
+.square-frame .video {
+  position: relative;
+  box-shadow: 7px 5px 5px black;
+  margin-left: 30%;
+  margin-top: 5%;
+  z-index: 1;
+}
+.square-frame .about-games {
+  position: relative;
+  box-shadow: 7px 5px 5px black;
+  background-color: #f99321;
+  margin-top: -18%;
+  margin-left: 40vmin;
+  margin-right: auto;
+  width: 300px;
+  padding: 10px;
+  color: #000000;
+  font-size: large;
+  text-align: justify;
+  z-index: 2;
+}
 .square-frame .about-description {
   position: inherit;
-  border-radius: 15px;
+  box-shadow: 7px 5px 5px black;
   background-color: #f99321;
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
   width: 40%;
   padding: 10px;
   color: #000000;
